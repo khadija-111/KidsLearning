@@ -1,0 +1,30 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kidslearning">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/kids"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/kids"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KidsLearning">
+
+
+        <activity android:name=".LoginActivity" android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SelectionActivity"
+            android:exported="true"/>
+
+        <activity android:name=".RegisterActivity" />
+
+        <activity android:name=".MainActivity" />
+
+    </application>
+
+</manifest>
